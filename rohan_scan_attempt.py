@@ -1,9 +1,15 @@
+<<<<<<< Updated upstream
 #Tartan Hacks 2018
 
 
 
+=======
+try:
+    import Image
+except ImportError:
+    from PIL import Image
+>>>>>>> Stashed changes
 import pytesseract
-from PIL import Image, ImageEnhance, ImageFilter
 
 
 print ("Initializing fsociety...")
